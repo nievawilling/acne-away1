@@ -16,7 +16,9 @@ export default defineConfig(({ mode }) => {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY || process.env.GEMINI_API_KEY),
       'process.env.VITE_GEMINI_API_KEY': JSON.stringify(env.VITE_GEMINI_API_KEY || process.env.VITE_GEMINI_API_KEY),
       'process.env.VITE_GOOGLE_PROJECT_ID': JSON.stringify(env.VITE_GOOGLE_PROJECT_ID || process.env.VITE_GOOGLE_PROJECT_ID),
-      'process.env.VITE_GOOGLE_PROJECT_NUMBER': JSON.stringify(env.VITE_GOOGLE_PROJECT_NUMBER || process.env.VITE_GOOGLE_PROJECT_NUMBER)
+      'process.env.VITE_GOOGLE_PROJECT_NUMBER': JSON.stringify(env.VITE_GOOGLE_PROJECT_NUMBER || process.env.VITE_GOOGLE_PROJECT_NUMBER),
+      'process.env.VITE_ROBOFLOW_API_KEY': JSON.stringify(env.VITE_ROBOFLOW_API_KEY || process.env.VITE_ROBOFLOW_API_KEY),
+      'process.env.VITE_ROBOFLOW_MODEL_ENDPOINT': JSON.stringify(env.VITE_ROBOFLOW_MODEL_ENDPOINT || process.env.VITE_ROBOFLOW_MODEL_ENDPOINT)
     }
   }
 })

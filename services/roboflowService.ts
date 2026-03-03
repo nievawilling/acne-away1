@@ -4,8 +4,8 @@ import { AnalysisResult } from '../types';
  * Default credentials for the Acne Away dataset.
  */
 // Re-exporting for clarity
-export const DEFAULT_API_KEY = "gK3NBQZ6R9ZXHWtLrKOe"; 
-export const DEFAULT_MODEL_ENDPOINT = "acne-away-v1/2";
+export const DEFAULT_API_KEY = import.meta.env.VITE_ROBOFLOW_API_KEY || "gK3NBQZ6R9ZXHWtLrKOe"; 
+export const DEFAULT_MODEL_ENDPOINT = import.meta.env.VITE_ROBOFLOW_MODEL_ENDPOINT || "acne-away-v1/2";
 
 export const getCredentials = () => {
   // Prioritize environment variables, then local storage (though user requested removal), then defaults
