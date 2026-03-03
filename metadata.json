@@ -1,0 +1,8 @@
+{
+  "name": "Acne Away - AI Skin Analysis",
+  "description": "A professional-grade skin analysis dashboard for detecting and classifying acne types using computer vision and AI insights.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

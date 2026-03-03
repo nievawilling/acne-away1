@@ -1,0 +1,1 @@
+// File removed. Authentication is handled via direct API keys in the Settings panel.
